@@ -1,0 +1,17 @@
+{
+  "name": "notifs",
+  "displayName": "notifs",
+  "expo": {
+    "name": "notifs",
+    "slug": "notifs",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
