@@ -26,6 +26,12 @@ Notifications.setNotificationHandler({
 export default function App() {
   React.useEffect(() => {
     requestPermissionsAsync();
+    async function getTokenAsync() {
+      let result = await Notifications.getExpoPushTokenAsync();
+      console.log(result);
+    }
+
+    getTokenAsync();
   }, []);
 
   return (
